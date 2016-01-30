@@ -3,43 +3,55 @@ Résumé
 
 | Eric Holscher
 | 757 705 0532
-| Portland, Oregon
+| Portland, Oregon, Cascadia
+| https://github.com/ericholscher
 
 Interests
 ---------
 
-* Django & Python
 * Documentation
+* Django & Python
 * Devops
-* Scaling systems
 
 Open Source Projects
 --------------------
 
 * Read the Docs - http://readthedocs.org
 
-    * Over 5000 projects
-    * Over 5 million page views a month
-    * Standard hosting for Python community
+    * Role: Primary maintainer for over 3 years
+    * Over 10,000 projects & 9 million page views a month
+    * Standard documentation hosting for Python community
 
-* Member of the Python Software Foundation
+* Write the Docs Documentation - http://docs.writethedocs.org/
+
+    * Role: Maintainer and primary author
+    * A resource for people who want to write documentation
+
+* Django - https://www.djangoproject.com/
+
+    * Role: Contributor and operations staff
+    * Help keep the main website and documentation up and functioning
+
+* Fellow at the Python Software Foundation
 
 Conferences
 -----------
 
-* Helped organize the Write the Docs conference - http://conf.writethedocs.org
-
-    * 200+ people came to talk about documentation
-    * Portland, Oregon on April 8-9 2013
-    * Has spawned local users groups in multiple cities
+* Chair of the Write the Docs conference - http://conf.writethedocs.org
+* 2013 NA - Portland - 225 attendees
+* 2014 EU - Budapest - 100 attendees 
+* 2014 NA - Portland - 300 attendees 
 
 Speaking
 ---------
 
 Spoken at the following conferences on Read the Docs, IRC bots, Testing, and Documentation:
 
+* Keynote - Pycon Malaysia 2014
+* Pycon Phillipines 2014
+* Mulitple meetups across Taiwan in 2014
 * Open Source Bridge 2012, 2011
-* Pyweb Summit 2012
+* Pycon Web Summit 2012
 * Djangocon US 2011, 2010
 * OSCON 2011
 * Djangocon EU 2010, 2009
@@ -78,25 +90,6 @@ Lawrence Journal-World - Developer
 
 * The birthplace of Django, maintaining the world's oldest Django codebase
 * Worked as Lead developer and defacto sysadmin for the "Internal" team
-
-    - Ljworld.com, Lawrence.com, Kusports.com and ~20 other sites
-
-* Worked on the "Commerical" team on Ellington
-
-    - Ported Ellington from Django r1290 to 1.0
-    - Wrote lots of tests and supported the product
-
-
-March 2006 - May 2008
-~~~~~~~~~~~~~~~~~~~~~
-(Hiatus July 2006-January 2007 while in Australia)
-
-CACI - Developer
-````````````````
-
-* Full Life-cycle development of a Portal-type website for the U.S. Navy
-* Wrote a javascript validation library, allowing you to add rules in one line, and saving developers from writing custom javascript for each page
-* Used Prototype and Scriptaculous Javascript libraries for AJAX and other development
 
 Education
 ---------

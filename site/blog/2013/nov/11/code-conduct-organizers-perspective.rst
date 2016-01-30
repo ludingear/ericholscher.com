@@ -1,45 +1,41 @@
+:Date: 2013-11-11 20:00:00
+
 Codes of Conduct, an Organizers Perspective
 ==========================================
 
 I helped organize my first conference last year,
 `Write the Docs`_.
 It was a great experience,
-but also rather stressful.
-It turns out that organizing things is an interesting exercise in managing fear and risk.
-There is so much that could happen badly,
+but was also rather stressful.
+Organizing things is an interesting exercise in managing fear and risk.
+There are so many possible outcomes,
 and this is scary as hell.
 
 As an organizer,
-I found myself looking for systems to minimize stress and uncertainty.
+I found myself looking for systems to minimize uncertainty.
 Uncertainty is the breeding ground of fear.
 
 Code of Conduct
 ---------------
 
-We established a `Code of Conduct`_ for the conference because it felt like the right thing to do.
-I believe in increasing diversity,
-and I know that Codes of Conduct matter to people who I care about.
-So,
-it initially started out as a way to signal to people that we really care.
-
-As the conference came closer though,
-it became really valuable for me as an organizer in another way.
+We established a `Code of Conduct`_ for Write the Docs early on.
+As the conference came closer,
+it became really valuable for me as an organizer.
 It was one aspect of the conference that I didn't have to worry about.
-Something bad might happen,
+
+An event that violates our Code of Conduct might happen,
 but you can't remove that possibility from existing.
-However, 
-if something bad did happen, 
-we had a plan.
-I felt prepared to deal with any issues.
-This was much easier thanks this `amazing document`_ from the Geek Feminism Wiki,
+If anything did happen,
+I felt prepared to deal with it.
+This was much easier because of this `amazing document`_,
 which provides an example internal policy to follow.
 
 The Code of Conduct also gave us a leg to stand on if there were any issues.
-Someone couldn't complain about being reprimanded or expelled from the conference by pleading ignorance.
-We mentioned the Code of Conduct on speaker signups,
+If we had to reprimand or expel someone,
+they couldn't claim ignorance of the policy.
+We mentioned the Code of Conduct on conference signup,
 on the website,
-and in the opening address to the conference.
-
+and in the opening address.
 
 Conclusion
 ----------

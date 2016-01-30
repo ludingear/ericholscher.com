@@ -1,6 +1,47 @@
 Blog Entries
 ------------
 
+2015
+~~~~
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   /blog/2015/dec/*/*
+   /blog/2015/nov/*/*
+   /blog/2015/oct/*/*
+   /blog/2015/sep/*/*
+   /blog/2015/aug/*/*
+   /blog/2015/jul/*/*
+   /blog/2015/jun/*/*
+   /blog/2015/may/*/*
+   /blog/2015/apr/*/*
+   /blog/2015/mar/*/*
+   /blog/2015/feb/*/*
+   /blog/2015/jan/*/*
+
+
+2014
+~~~~
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   /blog/2014/dec/*/*
+   /blog/2014/nov/*/*
+   /blog/2014/oct/*/*
+   /blog/2014/sep/*/*
+   /blog/2014/aug/*/*
+   /blog/2014/jul/*/*
+   /blog/2014/jun/*/*
+   /blog/2014/may/*/*
+   /blog/2014/apr/*/*
+   /blog/2014/mar/*/*
+   /blog/2014/feb/*/*
+   /blog/2014/jan/*/*
+
 2013
 ~~~~
 
@@ -8,18 +49,18 @@ Blog Entries
    :maxdepth: 1
    :glob:
 
-   /blog/2013/jan/*/*
-   /blog/2013/feb/*/*
-   /blog/2013/mar/*/*
-   /blog/2013/apr/*/*
-   /blog/2013/may/*/*
-   /blog/2013/jun/*/*
-   /blog/2013/jul/*/*
-   /blog/2013/aug/*/*
-   /blog/2013/sep/*/*
-   /blog/2013/oct/*/*
-   /blog/2013/nov/*/*
    /blog/2013/dec/*/*
+   /blog/2013/nov/*/*
+   /blog/2013/oct/*/*
+   /blog/2013/sep/*/*
+   /blog/2013/aug/*/*
+   /blog/2013/jul/*/*
+   /blog/2013/jun/*/*
+   /blog/2013/may/*/*
+   /blog/2013/apr/*/*
+   /blog/2013/mar/*/*
+   /blog/2013/feb/*/*
+   /blog/2013/jan/*/*
 
 2012
 ~~~~

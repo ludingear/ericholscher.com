@@ -1,3 +1,5 @@
+:Date: 2013-11-21 20:00:00
+
 A Better Javascript Workflow with Django
 ========================================
 
@@ -6,8 +8,8 @@ It was the part of the process of developing that I would dread.
 On the last project I worked on,
 I found a very simple change that significantly improved my experience writing Javascript.
 
-One big file
-------------
+Problem: One big file
+---------------------
 
 Historically,
 Javascript lived in one really large file.
@@ -21,8 +23,8 @@ you had to reply on implicit import mechanisms.
 A variable would just magically appear in your file because of the import order of the scripts.
 This incredibly brittle and unintuitive way of working puts up a high barrier to writing well-factored code.
 
-Introducing node-style requires
--------------------------------
+Solution: node-style requires
+-----------------------------
 
 Node.js has the concept of `require`.
 It works very similarly to Python's `import` mechanism.
@@ -63,21 +65,25 @@ where the uppermost logic lives.
 Then you can dive into each specific file to understand that subsection of code.
 All the benefits normally associated with an import system come to bare.
 
+As a wise man once said:
+
+	Namespaces are one honking great idea -- let's do more of those!
+
 Imports in the browser
 ----------------------
 
 It's great that node has an import system,
 but that doesn't help me when I'm writing Javascript for the browser.
-`browserify`_ is a project that basically allows you to have node-style imports in the browser.
+`browserify`_ is a project that allows you to have node-style imports in the browser.
 
 Browserify takes all of your Javascript files with imports,
 and renders them into one large file you can include in your project.
-It does this by pointing to an "entry-point" file,
+It does this by pointing to a file,
 which is the top-level entry point into your code.
 In the example above, 
 `client.js` would be the entry point.
 
-To user Browserify you simply install it:
+To use Browserify, simply install it with npm:
 
 .. code-block:: bash
 
@@ -97,8 +103,8 @@ The "bundle" is what you include in your HTML:
 
 	<script type="text/javascript" src="bundle.js"></script>
 
-The problem
------------
+A New Problem
+--------------
 
 As with all preprocessors,
 the main issue is the workflow around rendering the code into its final form.
@@ -157,7 +163,7 @@ This allows you to point at the same Javascript file in development as in produc
 	beefy client.js:bundle.js
 
 Beefy should now be serving on port `9966`.
-You can point Django at this for static media by using a setting:
+You can point Django at this for static media by using the setting:
 
 .. code-block:: python
 
@@ -165,6 +171,9 @@ You can point Django at this for static media by using a setting:
 
 Beefy should now be serving your media properly,
 and auto-compiling your javascript through Browserify.
+
+.. note:: You may want to symlink your javascript files from into `STATIC_ROOT`,
+            if you are doing active development on them.
 
 Conclusion
 ----------
